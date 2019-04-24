@@ -1,0 +1,19 @@
+第一步、下载脚本
+wget https://git.io/vpnsetup -O vpnsetup.sh
+
+
+第二步、编辑脚本
+vim vpnsetup.sh
+
+配置如下几个值
+YOUR_IPSEC_PSK = 'www.jincaox.com'
+YOUR_USERNAME = 'jincaox' 
+YOUR_PASSWORD = 'pw147258'
+
+
+第三步、执行脚本
+sudo sh vpnsetup.sh
+
+
+执行结束，VPN搭建完成
+只需要在自己的电脑上输入之前配置的PSK 、USERNAME和PASSWORD，就能连接VPN了。
